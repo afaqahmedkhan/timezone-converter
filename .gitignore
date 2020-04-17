@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/server/node_modules
+/server/.pnp
+/server/.pnp.js
+
+# testing
+/server/coverage
+
+# production
+/server/build
+
+# misc
+/server/.DS_Store
+
+/server/npm-debug.log*
+/server/yarn-debug.log*
+/server/yarn-error.log*
+
+.idea/
+.vscode/
+build
+.DS_Store
+*.tgz
+my-app*
+template/src/__tests__/__snapshots__/
+lerna-debug.log
+/.changelog
+.env
+.env*.local
+package-lock.json
+yarn.lock
+src/styles/App.css
+coverage/*
+/server/.history/
