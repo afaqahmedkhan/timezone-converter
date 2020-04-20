@@ -4,12 +4,16 @@
 /server/node_modules
 /server/.pnp
 /server/.pnp.js
-
+/client/node_modules
+/client/.pnp
+/client/.pnp.js
 # testing
 /server/coverage
+/client/coverage
 
 # production
 /server/build
+/client/build
 
 # misc
 /server/.DS_Store
@@ -34,3 +38,4 @@ yarn.lock
 src/styles/App.css
 coverage/*
 /server/.history/
+/client/.history/
